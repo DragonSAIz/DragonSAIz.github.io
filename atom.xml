@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://dragonsaiz.github.io/</id>
     <title>张同学的秘密基地</title>
-    <updated>2021-09-16T03:30:45.338Z</updated>
+    <updated>2021-09-16T03:45:01.253Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://dragonsaiz.github.io/"/>
     <link rel="self" href="https://dragonsaiz.github.io/atom.xml"/>
@@ -11,13 +11,28 @@
     <icon>https://dragonsaiz.github.io/favicon.ico</icon>
     <rights>All rights reserved 2021, 张同学的秘密基地</rights>
     <entry>
+        <title type="html"><![CDATA[ZZU常用网站]]></title>
+        <id>https://dragonsaiz.github.io/post/zzu-chang-yong-wang-zhan/</id>
+        <link href="https://dragonsaiz.github.io/post/zzu-chang-yong-wang-zhan/">
+        </link>
+        <updated>2021-09-16T03:33:10.000Z</updated>
+        <content type="html"><![CDATA[<blockquote>
+<p>仅列出较为常用的网站</p>
+</blockquote>
+<hr>
+<h2 id="zzu教务系统httpsjwvzzueducn"><strong>ZZU教务系统:<a href="https://jw.v.zzu.edu.cn/">https://jw.v.zzu.edu.cn/</a></strong></h2>
+<h2 id="zzu邮件系统httpsmailvzzueducn"><strong>ZZU邮件系统:<a href="https://mail.v.zzu.edu.cn/">https://mail.v.zzu.edu.cn/</a></strong></h2>
+<h2 id="zzu健康打卡系统httpsjksbvzzueducn"><strong>ZZU健康打卡系统:<a href="https://jksb.v.zzu.edu.cn/">https://jksb.v.zzu.edu.cn/</a></strong></h2>
+<h2 id="zzu综合服务门户httpscasgxvzzueducn"><strong>ZZU综合服务门户:<a href="https://casgx.v.zzu.edu.cn/">https://casgx.v.zzu.edu.cn/</a></strong></h2>
+]]></content>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[欢迎来到我的博客🎉🎉🎉]]></title>
         <id>https://dragonsaiz.github.io/post/shou-ye/</id>
         <link href="https://dragonsaiz.github.io/post/shou-ye/">
         </link>
         <updated>2021-09-16T03:18:14.000Z</updated>
-        <content type="html"><![CDATA[<p>有点简陋，请多担待<br>
-<img src="https://dragonsaiz.github.io//post-images/1631762377722.jpg" alt="" loading="lazy"></p>
+        <content type="html"><![CDATA[<p>有点简陋，请多担待</p>
 ]]></content>
     </entry>
 </feed>
