@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://dragonsaiz.github.io/</id>
     <title>张同学的秘密基地</title>
-    <updated>2021-09-16T03:28:20.626Z</updated>
+    <updated>2021-09-16T03:29:55.128Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://dragonsaiz.github.io/"/>
     <link rel="self" href="https://dragonsaiz.github.io/atom.xml"/>
@@ -11,12 +11,12 @@
     <icon>https://dragonsaiz.github.io/favicon.ico</icon>
     <rights>All rights reserved 2021, 张同学的秘密基地</rights>
     <entry>
-        <title type="html"><![CDATA[首页]]></title>
+        <title type="html"><![CDATA[欢迎来到我的博客🎉🎉🎉]]></title>
         <id>https://dragonsaiz.github.io/post/shou-ye/</id>
         <link href="https://dragonsaiz.github.io/post/shou-ye/">
         </link>
         <updated>2021-09-16T03:18:14.000Z</updated>
-        <content type="html"><![CDATA[<p>欢迎来到我的博客🎉🎉🎉<br>
+        <content type="html"><![CDATA[<p>有点简陋，请多担待<br>
 <img src="https://dragonsaiz.github.io//post-images/1631762377722.jpg" alt="" loading="lazy"></p>
 ]]></content>
     </entry>
