@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://dragonsaiz.github.io/</id>
     <title>DragonSAI-Z的秘密基地</title>
-    <updated>2021-09-16T09:16:33.556Z</updated>
+    <updated>2021-09-16T12:00:52.057Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://dragonsaiz.github.io/"/>
     <link rel="self" href="https://dragonsaiz.github.io/atom.xml"/>
@@ -49,7 +49,8 @@
         <link href="https://dragonsaiz.github.io/post/shou-ye/">
         </link>
         <updated>2021-09-16T03:18:14.000Z</updated>
-        <content type="html"><![CDATA[<p>有点简陋，请多担待</p>
+        <content type="html"><![CDATA[<h1 id="有点简陋请多担待">有点简陋，请多担待</h1>
+<figure data-type="image" tabindex="1"><img src="https://dragonsaiz.github.io//post-images/1631793401372.jpg" alt="" loading="lazy"></figure>
 ]]></content>
     </entry>
 </feed>
