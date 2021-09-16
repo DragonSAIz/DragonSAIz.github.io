@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://dragonsaiz.github.io/</id>
-    <title>张同学的秘密基地</title>
-    <updated>2021-09-16T09:08:43.030Z</updated>
+    <title>DragonSAI-Z的秘密基地</title>
+    <updated>2021-09-16T09:16:33.556Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://dragonsaiz.github.io/"/>
     <link rel="self" href="https://dragonsaiz.github.io/atom.xml"/>
     <subtitle>温故而知新</subtitle>
     <logo>https://dragonsaiz.github.io/images/avatar.png</logo>
     <icon>https://dragonsaiz.github.io/favicon.ico</icon>
-    <rights>All rights reserved 2021, 张同学的秘密基地</rights>
+    <rights>All rights reserved 2021, DragonSAI-Z的秘密基地</rights>
     <entry>
         <title type="html"><![CDATA[自用网站]]></title>
         <id>https://dragonsaiz.github.io/post/architect.ziyongwangzhan/</id>
