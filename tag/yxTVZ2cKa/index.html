@@ -24,6 +24,15 @@
 <link href="https://cdn.jsdelivr.net/npm/font-awesome@4.7.0/css/font-awesome.min.css" rel="stylesheet">
 
 
+<!-- 原  
+<script src="https://cdn.jsdelivr.net/npm/aplayer@1.10.1/dist/APlayer.min.js"></script>
+-->
+<!--
+<script src="https://src.wangriyu.wang/lib/Aplayer/APlayer.min.js"></script>
+-->
+<script src="https://cdn.jsdelivr.net/gh/xiangyi715/Gridea-Chic-Unique@1.0.3/assets/media/script/APlayer.min.js"></script>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aplayer@1.10.1/dist/APlayer.min.css">
+    
 
 	<script src='//unpkg.com/valine/dist/Valine.min.js'></script>
 
@@ -97,7 +106,7 @@ var _hmt = _hmt || [];
                         <label for="switch_default" class="toggleBtn"></label>
             </div>
 
-            <form id="gridea-search-form" data-update="1631839669780" action="/search/index.html">
+            <form id="gridea-search-form" data-update="1631840569454" action="/search/index.html">
                 <input class="search-input" autocomplete="off" spellcheck="false" name="q" placeholder="🔍Search..." style = "-webkit-border-radius:8px;
 				   -moz-border-radius:8px;
 				   -ms-border-radius:8px;
@@ -125,7 +134,7 @@ var _hmt = _hmt || [];
                         <!--zh-->
                         <a id="mobile-toggle-theme-zh" class="a zh">&nbsp;\u6697\u9ED1</a>
                     </div>
-                    <form id="gridea-search-form" data-update="1631839669780" action="/search/index.html">
+                    <form id="gridea-search-form" data-update="1631840569454" action="/search/index.html">
                         <input class="search-input" autocomplete="off" spellcheck="false" name="q" placeholder="🔍Search..." style = "-webkit-border-radius:8px;
 				   -moz-border-radius:8px;
 				   -ms-border-radius:8px;
@@ -249,6 +258,8 @@ input:focus{
         </div>
     </div>
     		   
+			    <div id="player"></div>
+			    
 		
 <footer id="footer" class="footer" style="height: 0px">
 
@@ -290,6 +301,30 @@ input:focus{
 
                 <script>
 			
+
+                    function LoadPlayer() {
+                        var music_array = [];
+                        
+                        music_array.push({
+                            name: 'Killer',
+                            url: 'http://music.163.com/song/media/outer/url?id=449578101.mp3',
+                            artist: '菅野祐悟',
+                            cover: 'https://p2.music.126.net/3Zt3gNO-Q7OlyIS8Q8IyMQ==/18757668371533715.jpg?param=130y130',
+//			    lrc: "https://dragonsaiz.github.io//media/music_lrc/rangjiu.lrc"
+                        });
+                        
+                        console.log(" MusicList: " + music_array);
+                        
+                        const ap = new APlayer({
+                            container: document.getElementById('player'),
+                            fixed: true,
+                            audio: music_array
+                        });
+                        
+                    }
+
+                    LoadPlayer();
+                    
 
                     
 //                    hitokoto();
