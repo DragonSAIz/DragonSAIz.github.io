@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://dragonsaiz.github.io/</id>
     <title>SAI-Z的秘密基地</title>
-    <updated>2021-09-18T05:42:31.132Z</updated>
+    <updated>2021-09-18T09:01:09.930Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://dragonsaiz.github.io/"/>
     <link rel="self" href="https://dragonsaiz.github.io/atom.xml"/>
@@ -86,7 +86,7 @@ def send_email():
 <h2 id="源码">源码</h2>
 <p>源码：<a href="https://pan.baidu.com/s/10TEam7W5nxlYIXDLECzkxw">https://pan.baidu.com/s/10TEam7W5nxlYIXDLECzkxw</a><br>
 提取码：qznd<br>
-项目地址：首页移步Github</p>
+项目地址：<a href="https://github.com/DragonSAIz/ZZU-clock-in" target="_blank">点击跳转</a></p>
 <blockquote>
 <p><img src="https://dragonsaiz.github.io//post-images/1631867576553.gif" alt="" loading="lazy"><center>欢迎评论哈!</center></p>
 </blockquote>
