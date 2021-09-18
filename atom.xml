@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://dragonsaiz.github.io/</id>
     <title>SAI-Z的秘密基地</title>
-    <updated>2021-09-17T08:47:38.457Z</updated>
+    <updated>2021-09-18T05:42:31.132Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://dragonsaiz.github.io/"/>
     <link rel="self" href="https://dragonsaiz.github.io/atom.xml"/>
@@ -84,8 +84,9 @@ def send_email():
 受文章长度限制，此处并未详细讲述该项目如何配置。<br>
 该项目还是比较容易配置的，如果感兴趣的比较多的话，我会出一篇详细的配置和部署教程。</p>
 <h2 id="源码">源码</h2>
-<p>源码：<a href="https://pan.baidu.com/s/14NBJt_63NOa1iWqBeWdN6Q " target="_blank">https://pan.baidu.com/s/14NBJt_63NOa1iWqBeWdN6Q </a><br>
-提取码：xp55</p>
+<p>源码：<a href="https://pan.baidu.com/s/10TEam7W5nxlYIXDLECzkxw">https://pan.baidu.com/s/10TEam7W5nxlYIXDLECzkxw</a><br>
+提取码：qznd<br>
+项目地址：首页移步Github</p>
 <blockquote>
 <p><img src="https://dragonsaiz.github.io//post-images/1631867576553.gif" alt="" loading="lazy"><center>欢迎评论哈!</center></p>
 </blockquote>
