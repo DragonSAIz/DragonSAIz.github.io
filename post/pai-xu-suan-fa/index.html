@@ -1,10 +1,10 @@
-<html lang="zh">
+<html>
 <head>
     <meta charset="utf-8"/>
 <meta name="description" content=""/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
 
-<title>关于 - SAI-Z的秘密基地</title>
+<title>排序算法 | SAI-Z的秘密基地</title>
 
 <link rel="shortcut icon" href="https://dragonsaiz.github.io//favicon.ico?v=1642003686255">
 
@@ -25,7 +25,7 @@
 
 
 
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex/dist/katex.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/katex.css">
 </head>
 <body>
 <div class="main gt-bg-theme-color-first">
@@ -94,18 +94,61 @@
 </nav>
 
     <div class="post-container">
-        <div class="post-detail">
+        <div class="post-detail gt-bg-theme-color-second">
             <article class="gt-post-content">
-                <div class="post-content">
+                <h2 class="post-title">
+                    排序算法
+                </h2>
+                <div class="post-info">
+                    <time class="post-time gt-c-content-color-first">
+                        · 2022-01-13 ·
+                    </time>
                     
+                        <a href="https://dragonsaiz.github.io/tag/FINUsOcOF/" class="post-tags">
+                            # 算法
+                        </a>
+                    
+                </div>
+                <div class="post-content">
+                    <h2 id="快速排序">快速排序</h2>
+<pre><code class="language-c++">//快速排序算法
+void quick_sort(int q[], int l ,int r){
+    if( l &gt;= r) return;	//如果只有一位或者没有直接退出
+	//l + r &gt;&gt; 1等价于(l + r) / 2
+    int x = q[l + r &gt;&gt; 1], i = l - 1; j = r + 1;
+    while(i &lt; j){
+        do i++; while(q[i] &lt; x);
+        do j++; while(q[j] &gt; x);
+        if(i &lt; j) swap(q[i], q[j]);
+    }
+    
+    quick_sort(q, l, j);
+    quick_sort(q, j + 1, r);
+}
+</code></pre>
+<h2 id="归并排序">归并排序</h2>
+<pre><code class="language-c++">//归并排序算法
+void 
+</code></pre>
+
                 </div>
             </article>
         </div>
-        <br>
+
+        
+            <div class="next-post">
+                <div class="next gt-c-content-color-first">下一篇</div>
+                <a href="https://dragonsaiz.github.io/post/guan-yu-jian-kang-da-qia-de-si-kao/" class="post-title gt-a-link">
+                    关于健康打卡的思考
+                </a>
+            </div>
         
 
         
 
+        
+
+        
 
         <div class="site-footer gt-c-content-color-first">
     <div class="slogan gt-c-content-color-first">温故而知新</div>

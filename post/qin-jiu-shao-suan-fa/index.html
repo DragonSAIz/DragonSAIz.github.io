@@ -1,10 +1,10 @@
-<html lang="zh">
+<html>
 <head>
     <meta charset="utf-8"/>
 <meta name="description" content=""/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
 
-<title>关于 - SAI-Z的秘密基地</title>
+<title>秦九韶算法 | SAI-Z的秘密基地</title>
 
 <link rel="shortcut icon" href="https://dragonsaiz.github.io//favicon.ico?v=1642003686255">
 
@@ -25,7 +25,7 @@
 
 
 
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex/dist/katex.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/katex.css">
 </head>
 <body>
 <div class="main gt-bg-theme-color-first">
@@ -94,18 +94,51 @@
 </nav>
 
     <div class="post-container">
-        <div class="post-detail">
+        <div class="post-detail gt-bg-theme-color-second">
             <article class="gt-post-content">
-                <div class="post-content">
+                <h2 class="post-title">
+                    秦九韶算法
+                </h2>
+                <div class="post-info">
+                    <time class="post-time gt-c-content-color-first">
+                        · 2022-01-13 ·
+                    </time>
                     
+                        <a href="https://dragonsaiz.github.io/tag/FINUsOcOF/" class="post-tags">
+                            # 算法
+                        </a>
+                    
+                </div>
+                <div class="post-content">
+                    <h1 id="b进制转十进制常用算法进制转化问题">b进制转十进制常用算法(进制转化问题)</h1>
+<pre><code class="language-c++">//b进制数转化为十进制数
+int get(string s, int b){
+    int res = 0;
+    //秦九韶算法
+    for(auto c: s)
+        res = res * b + c - '0';
+    return res;
+}
+</code></pre>
+
                 </div>
             </article>
         </div>
-        <br>
+
+        
+            <div class="next-post">
+                <div class="next gt-c-content-color-first">下一篇</div>
+                <a href="https://dragonsaiz.github.io/post/pai-xu-suan-fa/" class="post-title gt-a-link">
+                    排序算法
+                </a>
+            </div>
         
 
         
 
+        
+
+        
 
         <div class="site-footer gt-c-content-color-first">
     <div class="slogan gt-c-content-color-first">温故而知新</div>
