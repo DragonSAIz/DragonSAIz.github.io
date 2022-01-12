@@ -2,14 +2,14 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://dragonsaiz.github.io/</id>
     <title>SAI-Z的秘密基地</title>
-    <updated>2021-09-18T09:01:09.930Z</updated>
+    <updated>2022-01-12T14:58:32.319Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://dragonsaiz.github.io/"/>
     <link rel="self" href="https://dragonsaiz.github.io/atom.xml"/>
     <subtitle>温故而知新</subtitle>
     <logo>https://dragonsaiz.github.io/images/avatar.png</logo>
     <icon>https://dragonsaiz.github.io/favicon.ico</icon>
-    <rights>All rights reserved 2021, SAI-Z的秘密基地</rights>
+    <rights>All rights reserved 2022, SAI-Z的秘密基地</rights>
     <entry>
         <title type="html"><![CDATA[关于健康打卡的思考]]></title>
         <id>https://dragonsaiz.github.io/post/guan-yu-jian-kang-da-qia-de-si-kao/</id>
