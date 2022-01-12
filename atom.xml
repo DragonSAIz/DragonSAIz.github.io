@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://dragonsaiz.github.io/</id>
     <title>SAI-Z的秘密基地</title>
-    <updated>2022-01-12T15:39:06.194Z</updated>
+    <updated>2022-01-12T16:00:10.202Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://dragonsaiz.github.io/"/>
     <link rel="self" href="https://dragonsaiz.github.io/atom.xml"/>
@@ -16,81 +16,6 @@
         <link href="https://dragonsaiz.github.io/post/guan-yu-jian-kang-da-qia-de-si-kao/">
         </link>
         <updated>2021-09-17T08:01:22.000Z</updated>
-        <content type="html"><![CDATA[<h1 id="zzu-automatic-clock-in-project">ZZU automatic clock-in project</h1>
-<blockquote>
-<center>Python实现每日自动打卡功能</center>
-</blockquote>
-<h2 id="打卡功能">打卡功能</h2>
-<p>原项目地址：<a href="https://blog.csdn.net/MonkeyWang98/article/details/117361760?spm=1001.2014.3001.5506" target="_blank">点击跳转</a><br>
-因为最近打卡系统有变动，现在原项目打卡功能已经失效。<br>
-更新后的代码已放置文章末尾。</p>
-<h2 id="邮件发送功能">邮件发送功能</h2>
-<p>不需要邮件提醒的可以不用此功能</p>
-<pre><code class="language-python">#定义规范函数
-def _format_addr_(s):
-    #拆分用户名和邮箱地址
-    name,addr=parseaddr(s)
-    #规范化的合并用户名和邮箱地址
-    return formataddr((Header(name,'utf-8').encode(),addr))
-def send_email():
-    msg=MIMEMultipart('alternative')
-    #发送内容显示图片的html文件
-    if(result == &quot;success&quot;):
-        #打卡成功则发送打卡成功图片(1.jpg)
-        msg.attach(MIMEText('&lt;html&gt;&lt;body&gt;&lt;h1&gt;SUCCESS&lt;/h1&gt;' +
-            '&lt;p&gt;&lt;img src=&quot;cid:1&quot;&gt;&lt;/p&gt;' +
-            '&lt;/body&gt;&lt;/html&gt;', 'html', 'utf-8'))
-        #打开本地文件中的某个图片，并写入将要传入的对象中
-        with open(r'1.jpg', 'rb') as f:
-            #确认添加的类型为图片格式为jpg，添加头部文件和ID，导入内容，进行编码，链接到邮件
-            mine=MIMEBase('image','jpg')
-            mine.add_header('Content-ID','1')
-            mine.set_payload(f.read())
-            encoders.encode_base64(mine)
-            msg.attach(mine)
-    elif(result == &quot;erro&quot;):
-        #打卡失败则发送打卡失败图片(2.jpg)
-        msg.attach(MIMEText('&lt;html&gt;&lt;body&gt;&lt;h1&gt;ERRO&lt;/h1&gt;' +
-            '&lt;p&gt;&lt;img src=&quot;cid:2&quot;&gt;&lt;/p&gt;' +
-            '&lt;/body&gt;&lt;/html&gt;', 'html', 'utf-8'))
-        #打开本地文件中的某个图片，并写入将要传入的对象中
-        with open(r'2.jpg', 'rb') as f:
-            #确认添加的类型为图片格式为jpg，添加头部文件和ID，导入内容，进行编码，链接到邮件
-            mine=MIMEBase('image','jpg')
-            mine.add_header('Content-ID','2')
-            mine.set_payload(f.read())
-            encoders.encode_base64(mine)
-            msg.attach(mine)
-
-    #确定发送邮箱，授权码，目标邮箱，服务器端口及地址，还有邮箱格式的添加（发送邮箱，目标邮箱，主题）
-    from_addr='xxxxxxxxxx@qq.com'#发送邮箱
-    password='xxxxxxxxxxxxxxxx'#SMTP授权码
-    to_addr='xxxxxxxxxx@qq.com'#接收邮箱
-    smtp_server='smtp.qq.com'#此处是QQ邮箱示例
-    msg['From']=_format_addr_('发件人昵称&lt;%s&gt;'%from_addr)#自行修改
-    msg['To']=_format_addr_('收件人昵称&lt;%s&gt;'%to_addr)#自行修改
-    msg['Subject']=Header('主题','utf-8').encode()#自行修改
-    #连接向目标端口和服务器，建立安全连接，打出运行日志，登录，发送邮件，退出
-    import smtplib
-    server=smtplib.SMTP(smtp_server,25)
-    server.starttls()
-    server.set_debuglevel(1)
-    server.login(from_addr,password)
-    server.sendmail(from_addr,[to_addr],msg.as_string())
-    server.quit
-</code></pre>
-<h2 id="项目部署">项目部署</h2>
-<p>本人部署在腾讯云的云函数上，阿里云也是可以的，只要部署好后设置定时触发器就可以实现每日自动打卡<br>
-受文章长度限制，此处并未详细讲述该项目如何配置。<br>
-该项目还是比较容易配置的，如果感兴趣的比较多的话，我会出一篇详细的配置和部署教程。</p>
-<h2 id="源码">源码</h2>
-<p>源码：<a href="https://pan.baidu.com/s/10TEam7W5nxlYIXDLECzkxw">https://pan.baidu.com/s/10TEam7W5nxlYIXDLECzkxw</a><br>
-提取码：qznd<br>
-项目地址：<a href="https://github.com/DragonSAIz/ZZU-clock-in" target="_blank">点击跳转</a></p>
-<blockquote>
-<p><img src="https://dragonsaiz.github.io//post-images/1631867576553.gif" alt="" loading="lazy"><center>欢迎评论哈!</center></p>
-</blockquote>
-]]></content>
     </entry>
     <entry>
         <title type="html"><![CDATA[自用网站]]></title>
@@ -98,41 +23,5 @@ def send_email():
         <link href="https://dragonsaiz.github.io/post/architect.ziyongwangzhan/">
         </link>
         <updated>2021-09-16T03:47:04.000Z</updated>
-        <content type="html"><![CDATA[<blockquote>
-<p>不要声张🤫</p>
-</blockquote>
-<h2 id="自用网站">自用网站</h2>
-<p><strong>漫画 <a href="https://www.manhuacat.com/" target="_blank">https://www.manhuacat.com/</a></strong></p>
-<p><strong>动漫 <a href="https://www.agefans.cc/" target="_blank">https://www.agefans.cc/</a></strong></p>
-<p><strong>美剧 <a href="https://www.meijuxq.com/" target="_blank">https://www.meijuxq.com/</a></strong></p>
-<p><strong>影视 <a href="https://www.mypianku.net/" target="_blank">https://www.mypianku.net/</a></strong></p>
-<p><strong>电子书 <a href="https://www.jiumodiary.com" target="_blank">https://www.jiumodiary.com</a></strong></p>
-]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[ZZU常用网站]]></title>
-        <id>https://dragonsaiz.github.io/post/zzu-chang-yong-wang-zhan/</id>
-        <link href="https://dragonsaiz.github.io/post/zzu-chang-yong-wang-zhan/">
-        </link>
-        <updated>2021-09-16T03:33:10.000Z</updated>
-        <content type="html"><![CDATA[<blockquote>
-<p>仅列出较为常用的网站</p>
-</blockquote>
-<h2 id="常用网站">常用网站</h2>
-<p><strong>ZZU教务系统:<a href="https://jw.v.zzu.edu.cn/">https://jw.v.zzu.edu.cn/</a></strong></p>
-<p><strong>ZZU邮件系统:<a href="https://mail.v.zzu.edu.cn/">https://mail.v.zzu.edu.cn/</a></strong></p>
-<p><strong>ZZU健康打卡系统:<a href="https://jksb.v.zzu.edu.cn/">https://jksb.v.zzu.edu.cn/</a></strong></p>
-<p><strong>ZZU综合服务门户:<a href="https://casgx.v.zzu.edu.cn/">https://casgx.v.zzu.edu.cn/</a></strong></p>
-]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[欢迎来到我的博客🎉🎉🎉]]></title>
-        <id>https://dragonsaiz.github.io/post/shou-ye/</id>
-        <link href="https://dragonsaiz.github.io/post/shou-ye/">
-        </link>
-        <updated>2021-09-16T03:18:14.000Z</updated>
-        <content type="html"><![CDATA[<h1 id="有点简陋请多担待">有点简陋，请多担待</h1>
-<figure data-type="image" tabindex="1"><img src="https://dragonsaiz.github.io//post-images/1631793401372.jpg" alt="" loading="lazy"></figure>
-]]></content>
     </entry>
 </feed>
