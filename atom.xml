@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://dragonsaiz.github.io/</id>
-    <title>SAI-Z的秘密基地</title>
-    <updated>2022-01-13T12:28:22.944Z</updated>
+    <title>SAI-Z 的小黑屋</title>
+    <updated>2022-01-13T13:56:50.537Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://dragonsaiz.github.io/"/>
     <link rel="self" href="https://dragonsaiz.github.io/atom.xml"/>
-    <subtitle>温故而知新</subtitle>
+    <subtitle>&lt;b&gt;温故而知新&lt;/b&gt;</subtitle>
     <logo>https://dragonsaiz.github.io/images/avatar.png</logo>
     <icon>https://dragonsaiz.github.io/favicon.ico</icon>
-    <rights>All rights reserved 2022, SAI-Z的秘密基地</rights>
+    <rights>All rights reserved 2022, SAI-Z 的小黑屋</rights>
     <entry>
         <title type="html"><![CDATA[C++运算符]]></title>
         <id>https://dragonsaiz.github.io/cyun-suan-fu/</id>
