@@ -1,26 +1,26 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>https://dragonsaiz.github.io/</id>
+    <id>https://dragonsaiz.github.io/SAI</id>
     <title>SAI-Z 的小黑屋</title>
-    <updated>2022-01-20T12:54:40.173Z</updated>
+    <updated>2022-01-20T13:00:04.476Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
-    <link rel="alternate" href="https://dragonsaiz.github.io/"/>
-    <link rel="self" href="https://dragonsaiz.github.io/atom.xml"/>
+    <link rel="alternate" href="https://dragonsaiz.github.io/SAI"/>
+    <link rel="self" href="https://dragonsaiz.github.io/SAI/atom.xml"/>
     <subtitle>&lt;b&gt;温故而知新&lt;/b&gt;</subtitle>
-    <logo>https://dragonsaiz.github.io/images/avatar.png</logo>
-    <icon>https://dragonsaiz.github.io/favicon.ico</icon>
+    <logo>https://dragonsaiz.github.io/SAI/images/avatar.png</logo>
+    <icon>https://dragonsaiz.github.io/SAI/favicon.ico</icon>
     <rights>All rights reserved 2022, SAI-Z 的小黑屋</rights>
     <entry>
         <title type="html"><![CDATA[本站暂停更新]]></title>
-        <id>https://dragonsaiz.github.io/本站暂停更新/</id>
-        <link href="https://dragonsaiz.github.io/本站暂停更新/">
+        <id>https://dragonsaiz.github.io/SAI/本站暂停更新/</id>
+        <link href="https://dragonsaiz.github.io/SAI/本站暂停更新/">
         </link>
         <updated>2022-01-19T08:27:29.000Z</updated>
     </entry>
     <entry>
         <title type="html"><![CDATA[Font Awesome 图标]]></title>
-        <id>https://dragonsaiz.github.io/font-awesome-tu-biao/</id>
-        <link href="https://dragonsaiz.github.io/font-awesome-tu-biao/">
+        <id>https://dragonsaiz.github.io/SAI/font-awesome-tu-biao/</id>
+        <link href="https://dragonsaiz.github.io/SAI/font-awesome-tu-biao/">
         </link>
         <updated>2022-01-14T04:55:38.000Z</updated>
     </entry>
